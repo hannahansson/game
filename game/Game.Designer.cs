@@ -121,7 +121,7 @@ namespace game
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox1.BackColor = System.Drawing.Color.Green;
             this.pictureBox1.Location = new System.Drawing.Point(-3, 666);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(346, 30);
@@ -131,7 +131,7 @@ namespace game
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox2.BackColor = System.Drawing.Color.Green;
             this.pictureBox2.Location = new System.Drawing.Point(351, 584);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(225, 30);
@@ -141,7 +141,7 @@ namespace game
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox3.BackColor = System.Drawing.Color.Green;
             this.pictureBox3.Location = new System.Drawing.Point(205, 506);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(138, 30);
@@ -151,7 +151,7 @@ namespace game
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox4.BackColor = System.Drawing.Color.Green;
             this.pictureBox4.Location = new System.Drawing.Point(32, 435);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(149, 30);
@@ -161,7 +161,7 @@ namespace game
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox5.BackColor = System.Drawing.Color.Green;
             this.pictureBox5.Location = new System.Drawing.Point(205, 351);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(332, 30);
@@ -171,7 +171,7 @@ namespace game
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox6.BackColor = System.Drawing.Color.Green;
             this.pictureBox6.Location = new System.Drawing.Point(12, 252);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(150, 30);
@@ -181,7 +181,7 @@ namespace game
             // 
             // horizontolplatform
             // 
-            this.horizontolplatform.BackColor = System.Drawing.Color.Maroon;
+            this.horizontolplatform.BackColor = System.Drawing.Color.Green;
             this.horizontolplatform.Location = new System.Drawing.Point(205, 128);
             this.horizontolplatform.Name = "horizontolplatform";
             this.horizontolplatform.Size = new System.Drawing.Size(206, 30);
@@ -191,7 +191,7 @@ namespace game
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox8.BackColor = System.Drawing.Color.Green;
             this.pictureBox8.Location = new System.Drawing.Point(-3, 53);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(183, 30);
@@ -201,7 +201,7 @@ namespace game
             // 
             // verticalplatform
             // 
-            this.verticalplatform.BackColor = System.Drawing.Color.Maroon;
+            this.verticalplatform.BackColor = System.Drawing.Color.Green;
             this.verticalplatform.InitialImage = null;
             this.verticalplatform.Location = new System.Drawing.Point(549, 506);
             this.verticalplatform.Name = "verticalplatform";
@@ -212,7 +212,7 @@ namespace game
             // 
             // Player
             // 
-            this.Player.BackColor = System.Drawing.Color.DarkBlue;
+            this.Player.BackColor = System.Drawing.Color.MediumVioletRed;
             this.Player.Location = new System.Drawing.Point(49, 584);
             this.Player.Name = "Player";
             this.Player.Size = new System.Drawing.Size(30, 40);
@@ -222,7 +222,7 @@ namespace game
             // 
             // enemyone
             // 
-            this.enemyone.BackColor = System.Drawing.Color.DeepPink;
+            this.enemyone.BackColor = System.Drawing.Color.DodgerBlue;
             this.enemyone.Location = new System.Drawing.Point(473, 316);
             this.enemyone.Name = "enemyone";
             this.enemyone.Size = new System.Drawing.Size(30, 40);
@@ -232,7 +232,7 @@ namespace game
             // 
             // Door
             // 
-            this.Door.BackColor = System.Drawing.Color.DarkGreen;
+            this.Door.BackColor = System.Drawing.Color.SaddleBrown;
             this.Door.Location = new System.Drawing.Point(-3, -3);
             this.Door.Name = "Door";
             this.Door.Size = new System.Drawing.Size(45, 55);
@@ -242,7 +242,7 @@ namespace game
             // 
             // enemytwo
             // 
-            this.enemytwo.BackColor = System.Drawing.Color.DeepPink;
+            this.enemytwo.BackColor = System.Drawing.Color.DodgerBlue;
             this.enemytwo.Location = new System.Drawing.Point(381, 547);
             this.enemytwo.Name = "enemytwo";
             this.enemytwo.Size = new System.Drawing.Size(30, 40);
