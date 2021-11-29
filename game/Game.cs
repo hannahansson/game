@@ -101,8 +101,13 @@ namespace game
                             Console.Beep();
                             GameTimer.Stop();
                             isGameOver = true;
-                            txtScore.Text = "Score: " + score + Environment.NewLine +
-                                            "You were killed in your journey!!";
+                            MessageBox.Show("Score: " + score + Environment.NewLine +
+                                            "You were killed in your journey!!"
+                                            + Environment.NewLine + "Click OK to play again!");
+                            ResetGame();
+
+                            //txtScore.Text = "Score: " + score + Environment.NewLine +
+                            //     "You were killed in your journey!!";
                         }
 
                         horizontolplatform.Left -= horizontalSpeed;
@@ -143,18 +148,24 @@ namespace game
                             Console.Beep();
                             GameTimer.Stop();
                             isGameOver = true;
-                            txtScore.Text = "Score: " + score + Environment.NewLine + "You fell to your death!";
+                            MessageBox.Show("Score: " + score + Environment.NewLine + "You died!" 
+                                            + Environment.NewLine + "Click OK to play again!");
+                            
+                            ResetGame();
+                            //txtScore.Text = "Score: " + score + Environment.NewLine + "You died!";
                         }
 
                         if (Player.Bounds.IntersectsWith(Door.Bounds) && score == 24) 
                         {
                             GameTimer.Stop();
                             isGameOver = true;
-                            txtScore.Text = "Score: " + score + Environment.NewLine + "Your quest is complete!";
+                            MessageBox.Show("Score: " + score + Environment.NewLine + "You won!" + Environment.NewLine +
+                                            "Click OK to play again!");
+                            //txtScore.Text = "Score: " + score + Environment.NewLine + "You won!";
                         }
                         else
                         {
-                            txtScore.Text = "Score: " + score + Environment.NewLine + "Collect coins"; //all the 
+                            txtScore.Text = "Score: " + score + "\nCollect coins"; //all the 
                         }
                     }
                 }
@@ -221,16 +232,16 @@ namespace game
                 }
             }
 
-                Player.Left = 49;
-                Player.Top = 305; //584;
+            Player.Left = 49;
+            Player.Top = 305; 
 
-                enemyone.Left = 320;//473;
-                enemytwo.Left = 300; //381;
+            enemyone.Left = 320;
+            enemytwo.Left = 300;
 
-                horizontolplatform.Left = 205;
-                verticalplatform.Top = 290; //506;
+            horizontolplatform.Left = 205;
+            verticalplatform.Top = 290;
 
-                GameTimer.Start();
+            GameTimer.Start();
             }
         }
     }
