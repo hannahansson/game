@@ -161,6 +161,8 @@ namespace game
                             isGameOver = true;
                             MessageBox.Show("Score: " + score + Environment.NewLine + "You won!" + Environment.NewLine +
                                             "Click OK to play again!");
+
+                            ResetGame();
                             //txtScore.Text = "Score: " + score + Environment.NewLine + "You won!";
                         }
                         else
